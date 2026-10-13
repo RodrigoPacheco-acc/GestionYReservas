@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="GestionReserva_ADO/GestionReserva_ADO.csproj" />
+  <Project Path="GestionReserva_BE/GestionReserva_BE.csproj" />
+  <Project Path="GestionReserva_BL/GestionReserva_BL.csproj" />
+  <Project Path="GestionReserva_GUI/GestionReserva_GUI.csproj" />
+</Solution>

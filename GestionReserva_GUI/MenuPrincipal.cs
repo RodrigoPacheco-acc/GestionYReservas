@@ -14,5 +14,11 @@ namespace GestionReserva_GUI
         {
             InitializeComponent();
         }
+
+        private void btnPlatos_Click(object sender, EventArgs e)
+        {
+            PlatosMan01 objPlato = new PlatosMan01();
+            objPlato.ShowDialog();
+        }
     }
 }

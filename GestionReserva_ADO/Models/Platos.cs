@@ -19,5 +19,17 @@ public partial class Platos
 
     public decimal? PrecioReferencial { get; set; }
 
+    public byte[]? Foto { get; set; }
+
+    public DateTime FechaCreacion { get; set; }
+
+    public string? UsuarioCreacion { get; set; }
+
+    public DateTime? FechaUltModificacion { get; set; }
+
+    public string? UsuarioUltModificacion { get; set; }
+
+    public int Estado { get; set; }
+
     public virtual Categorias Categoria { get; set; } = null!;
 }

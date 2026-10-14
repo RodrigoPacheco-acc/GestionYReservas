@@ -37,7 +37,7 @@ public partial class ReservaContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=.;Database=BD_reservasrestaurante;Integrated Security=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=.;Database=bd_reservas_restaurante;Integrated Security=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -54,11 +54,22 @@ public partial class ReservaContext : DbContext
 
         modelBuilder.Entity<Categorias>(entity =>
         {
-            entity.HasKey(e => e.CategoriaId).HasName("PK__Categori__F353C1E5C93B6382");
+            entity.HasKey(e => e.CategoriaId);
 
-            entity.Property(e => e.Descripcion).HasMaxLength(200);
-            entity.Property(e => e.NombreCategoria).HasMaxLength(50);
+            entity.ToTable("categorias");
+
+            entity.Property(e => e.CategoriaId)
+                .HasColumnName("categoria_id");
+
+            entity.Property(e => e.Descripcion)
+                .HasColumnName("descripcion")
+                .HasMaxLength(200);
+
+            entity.Property(e => e.NombreCategoria)
+                .HasColumnName("nombre_categoria")
+                .HasMaxLength(50);
         });
+
 
         modelBuilder.Entity<Empleados>(entity =>
         {
@@ -107,20 +118,67 @@ public partial class ReservaContext : DbContext
                 .HasConstraintName("FK_Mesas_Zonas");
         });
 
+
         modelBuilder.Entity<Platos>(entity =>
         {
-            entity.HasKey(e => e.PlatoId).HasName("PK__Platos__4ABE1A888A51A118");
+            entity.ToTable("platos");
 
-            entity.Property(e => e.Descripcion).HasMaxLength(300);
-            entity.Property(e => e.Disponible).HasDefaultValue(true);
-            entity.Property(e => e.NombrePlato).HasMaxLength(100);
-            entity.Property(e => e.PrecioReferencial).HasColumnType("decimal(8, 2)");
+            entity.HasKey(e => e.PlatoId);
+
+            entity.Property(e => e.PlatoId)
+                .HasColumnName("plato_id");
+
+            entity.Property(e => e.NombrePlato)
+                .HasColumnName("nombre_plato")
+                .HasMaxLength(100);
+
+            entity.Property(e => e.Descripcion)
+                .HasColumnName("descripcion")
+                .HasMaxLength(300);
+
+            entity.Property(e => e.CategoriaId)
+                .HasColumnName("categoria_id");
+
+            entity.Property(e => e.TiempoPreparacionMinutos)
+                .HasColumnName("tiempo_preparacion_minutos");
+
+            entity.Property(e => e.Disponible)
+                .HasColumnName("disponible")
+                .HasDefaultValue(true);
+
+            entity.Property(e => e.PrecioReferencial)
+                .HasColumnName("precio_referencial")
+                .HasColumnType("decimal(8, 2)");
 
             entity.HasOne(d => d.Categoria).WithMany(p => p.Platos)
                 .HasForeignKey(d => d.CategoriaId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Platos_Categorias");
+
+            entity.Property(e => e.Foto)
+                .HasColumnName("foto");
+
+            entity.Property(e => e.FechaCreacion)
+                .HasColumnName("fecha_creacion")
+                .HasColumnType("datetime");
+
+            entity.Property(e => e.UsuarioCreacion)
+                .HasColumnName("usuario_creacion")
+                .HasMaxLength(50);
+
+            entity.Property(e => e.FechaUltModificacion)
+                .HasColumnName("fecha_ult_modificacion")
+                .HasColumnType("datetime");
+
+            entity.Property(e => e.UsuarioUltModificacion)
+                .HasColumnName("usuario_ult_modificacion")
+                .HasMaxLength(50);
+
+            entity.Property(e => e.Estado)
+                .HasColumnName("estado");
+
         });
+
 
         modelBuilder.Entity<ReservaEmpleados>(entity =>
         {

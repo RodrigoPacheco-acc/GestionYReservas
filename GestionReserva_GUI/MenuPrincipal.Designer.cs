@@ -42,41 +42,41 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 25F);
-            label1.Location = new Point(263, 40);
+            label1.Location = new Point(301, 53);
             label1.Name = "label1";
-            label1.Size = new Size(243, 46);
+            label1.Size = new Size(303, 57);
             label1.TabIndex = 0;
             label1.Text = "Menu Principal";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += this.label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 10F);
-            label2.Location = new Point(308, 97);
+            label2.Location = new Point(352, 129);
             label2.Name = "label2";
-            label2.Size = new Size(149, 19);
+            label2.Size = new Size(184, 23);
             label2.TabIndex = 1;
             label2.Text = "Gestion de restaurante";
             // 
             // btnMesas
             // 
             btnMesas.Font = new Font("Segoe UI", 12F);
-            btnMesas.Location = new Point(193, 146);
+            btnMesas.Location = new Point(221, 195);
+            btnMesas.Margin = new Padding(3, 4, 3, 4);
             btnMesas.Name = "btnMesas";
-            btnMesas.Size = new Size(163, 57);
+            btnMesas.Size = new Size(186, 76);
             btnMesas.TabIndex = 2;
             btnMesas.Text = "Mesas";
             btnMesas.UseVisualStyleBackColor = true;
-            btnMesas.Click += this.button1_Click;
             // 
             // btnPedidos
             // 
             btnPedidos.Font = new Font("Segoe UI", 12F);
-            btnPedidos.Location = new Point(193, 235);
+            btnPedidos.Location = new Point(221, 313);
+            btnPedidos.Margin = new Padding(3, 4, 3, 4);
             btnPedidos.Name = "btnPedidos";
-            btnPedidos.Size = new Size(163, 57);
+            btnPedidos.Size = new Size(186, 76);
             btnPedidos.TabIndex = 3;
             btnPedidos.Text = "Pedidos";
             btnPedidos.UseVisualStyleBackColor = true;
@@ -84,19 +84,22 @@
             // btnPlatos
             // 
             btnPlatos.Font = new Font("Segoe UI", 12F);
-            btnPlatos.Location = new Point(193, 328);
+            btnPlatos.Location = new Point(221, 437);
+            btnPlatos.Margin = new Padding(3, 4, 3, 4);
             btnPlatos.Name = "btnPlatos";
-            btnPlatos.Size = new Size(163, 57);
+            btnPlatos.Size = new Size(186, 76);
             btnPlatos.TabIndex = 4;
             btnPlatos.Text = "Platos";
             btnPlatos.UseVisualStyleBackColor = true;
+            btnPlatos.Click += btnPlatos_Click;
             // 
             // btnReservas
             // 
             btnReservas.Font = new Font("Segoe UI", 12F);
-            btnReservas.Location = new Point(410, 146);
+            btnReservas.Location = new Point(469, 195);
+            btnReservas.Margin = new Padding(3, 4, 3, 4);
             btnReservas.Name = "btnReservas";
-            btnReservas.Size = new Size(163, 57);
+            btnReservas.Size = new Size(186, 76);
             btnReservas.TabIndex = 5;
             btnReservas.Text = "Reservas";
             btnReservas.UseVisualStyleBackColor = true;
@@ -104,29 +107,30 @@
             // btnClientes
             // 
             btnClientes.Font = new Font("Segoe UI", 12F);
-            btnClientes.Location = new Point(410, 235);
+            btnClientes.Location = new Point(469, 313);
+            btnClientes.Margin = new Padding(3, 4, 3, 4);
             btnClientes.Name = "btnClientes";
-            btnClientes.Size = new Size(163, 57);
+            btnClientes.Size = new Size(186, 76);
             btnClientes.TabIndex = 6;
             btnClientes.Text = "Clientes";
             btnClientes.UseVisualStyleBackColor = true;
-            btnClientes.Click += this.button5_Click;
             // 
             // btnReportes
             // 
             btnReportes.Font = new Font("Segoe UI", 12F);
-            btnReportes.Location = new Point(410, 328);
+            btnReportes.Location = new Point(469, 437);
+            btnReportes.Margin = new Padding(3, 4, 3, 4);
             btnReportes.Name = "btnReportes";
-            btnReportes.Size = new Size(163, 57);
+            btnReportes.Size = new Size(186, 76);
             btnReportes.TabIndex = 7;
             btnReportes.Text = "Reportes";
             btnReportes.UseVisualStyleBackColor = true;
             // 
             // MenuPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(914, 600);
             Controls.Add(btnReportes);
             Controls.Add(btnClientes);
             Controls.Add(btnReservas);
@@ -135,6 +139,7 @@
             Controls.Add(btnMesas);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MenuPrincipal";
             Text = "Form2";
             ResumeLayout(false);

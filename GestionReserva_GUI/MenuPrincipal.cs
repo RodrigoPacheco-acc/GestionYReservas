@@ -20,5 +20,17 @@ namespace GestionReserva_GUI
             PlatosMan01 objPlato = new PlatosMan01();
             objPlato.ShowDialog();
         }
+
+        private void btnMesas_Click(object sender, EventArgs e)
+        {
+            MesasMan01 objMesa = new MesasMan01();
+            objMesa.ShowDialog();
+        }
+
+        private void btnReservas_Click(object sender, EventArgs e)
+        {
+            ReservasMan01 objReserva = new ReservasMan01();
+            objReserva.ShowDialog();
+        }
     }
 }

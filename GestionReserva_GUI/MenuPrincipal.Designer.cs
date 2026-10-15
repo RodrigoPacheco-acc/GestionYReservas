@@ -69,9 +69,11 @@
             btnMesas.TabIndex = 2;
             btnMesas.Text = "Mesas";
             btnMesas.UseVisualStyleBackColor = true;
+            btnMesas.Click += btnMesas_Click;
             // 
             // btnPedidos
-            // 
+            //
+            btnPedidos.Enabled = false;
             btnPedidos.Font = new Font("Segoe UI", 12F);
             btnPedidos.Location = new Point(221, 313);
             btnPedidos.Margin = new Padding(3, 4, 3, 4);
@@ -103,9 +105,11 @@
             btnReservas.TabIndex = 5;
             btnReservas.Text = "Reservas";
             btnReservas.UseVisualStyleBackColor = true;
+            btnReservas.Click += btnReservas_Click;
             // 
             // btnClientes
-            // 
+            //
+            btnClientes.Enabled = false;
             btnClientes.Font = new Font("Segoe UI", 12F);
             btnClientes.Location = new Point(469, 313);
             btnClientes.Margin = new Padding(3, 4, 3, 4);
@@ -116,7 +120,8 @@
             btnClientes.UseVisualStyleBackColor = true;
             // 
             // btnReportes
-            // 
+            //
+            btnReportes.Enabled = false;
             btnReportes.Font = new Font("Segoe UI", 12F);
             btnReportes.Location = new Point(469, 437);
             btnReportes.Margin = new Padding(3, 4, 3, 4);

@@ -13,7 +13,20 @@ public partial class Mesas
 
     public int ZonaId { get; set; }
 
-    public string Estado { get; set; } = null!;
+    public string EstadoMesa { get; set; } = null!;
+
+    public DateTime FechaCreacion { get; set; }
+
+    public string? UsuarioCreacion { get; set; }
+
+    public DateTime? FechaUltModificacion { get; set; }
+
+    public string? UsuarioUltModificacion { get; set; }
+
+    public int Estado { get; set; }
+
+    // Solo lectura (EF no la mapea): texto para mostrar en los ComboBox. Requiere cargar la Zona.
+    public string DescripcionMesa => "Mesa " + NumeroMesa + " - " + (Zona != null ? Zona.NombreZona : "") + " (" + Capacidad + " pers.)" + (Estado == 0 ? " [inactiva]" : "");
 
     public virtual ICollection<Reservas> Reservas { get; set; } = new List<Reservas>();
 

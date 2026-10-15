@@ -13,5 +13,18 @@ public partial class Turnos
 
     public TimeOnly HoraFin { get; set; }
 
+    public DateTime FechaCreacion { get; set; }
+
+    public string? UsuarioCreacion { get; set; }
+
+    public DateTime? FechaUltModificacion { get; set; }
+
+    public string? UsuarioUltModificacion { get; set; }
+
+    public int Estado { get; set; }
+
+    // Solo lectura (EF no la mapea): texto para mostrar en los ComboBox.
+    public string DescripcionTurno => NombreTurno + " (" + HoraInicio.ToString("HH:mm") + " - " + HoraFin.ToString("HH:mm") + ")" + (Estado == 0 ? " [inactivo]" : "");
+
     public virtual ICollection<Reservas> Reservas { get; set; } = new List<Reservas>();
 }

@@ -11,7 +11,15 @@ public partial class Zonas
 
     public string? Descripcion { get; set; }
 
-    public int CapacidadTotal { get; set; }
+    public DateTime FechaCreacion { get; set; }
+
+    public string? UsuarioCreacion { get; set; }
+
+    public DateTime? FechaUltModificacion { get; set; }
+
+    public string? UsuarioUltModificacion { get; set; }
+
+    public int Estado { get; set; }
 
     public virtual ICollection<Mesas> Mesas { get; set; } = new List<Mesas>();
 }

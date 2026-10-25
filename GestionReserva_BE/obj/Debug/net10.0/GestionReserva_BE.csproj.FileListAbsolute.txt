@@ -1,0 +1,52 @@
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.deps.json
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.sourcelink.json
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\refint\GestionReserva_BE.dll
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Usuario\Documents\Cursos\PA2\GestionReserva_BE\obj\Debug\net10.0\ref\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.deps.json
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfoInputs.cache
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfo.cs
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.csproj.CoreCompileInputs.cache
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.sourcelink.json
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\refint\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\ref\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2 (2)\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionR.BFBC8047.Up2Date
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.deps.json
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfoInputs.cache
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfo.cs
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.csproj.CoreCompileInputs.cache
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.sourcelink.json
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\refint\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.pdb
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\ref\GestionReserva_BE.dll
+C:\Users\Kaze\Desktop\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionR.BFBC8047.Up2Date
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.deps.json
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.dll
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\bin\Debug\net10.0\GestionReserva_BE.pdb
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.csproj.AssemblyReference.cache
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfoInputs.cache
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.AssemblyInfo.cs
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.csproj.CoreCompileInputs.cache
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.sourcelink.json
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.dll
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\refint\GestionReserva_BE.dll
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionReserva_BE.pdb
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\ref\GestionReserva_BE.dll
+D:\Anime\ISIL\Ciclo 2026-20\Desarrollo de Aplicaciones Básico - Lunes\Semana 7\PA2 DAPP\PA2\GestionReserva_BE\obj\Debug\net10.0\GestionR.BFBC8047.Up2Date

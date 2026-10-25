@@ -28,128 +28,91 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            btnMesas = new Button();
-            btnPedidos = new Button();
-            btnPlatos = new Button();
-            btnReservas = new Button();
-            btnClientes = new Button();
-            btnReportes = new Button();
+            menuStrip1 = new MenuStrip();
+            menuPrincipalToolStripMenuItem = new ToolStripMenuItem();
+            clientesToolStripMenuItem = new ToolStripMenuItem();
+            empleadosToolStripMenuItem1 = new ToolStripMenuItem();
+            gestionarEmpleadosToolStripMenuItem = new ToolStripMenuItem();
+            reservasToolStripMenuItem1 = new ToolStripMenuItem();
+            gestionarReservasToolStripMenuItem = new ToolStripMenuItem();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // menuStrip1
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 25F);
-            label1.Location = new Point(263, 40);
-            label1.Name = "label1";
-            label1.Size = new Size(243, 46);
-            label1.TabIndex = 0;
-            label1.Text = "Menu Principal";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += this.label1_Click;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { menuPrincipalToolStripMenuItem, empleadosToolStripMenuItem1, reservasToolStripMenuItem1 });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1384, 24);
+            menuStrip1.TabIndex = 9;
+            menuStrip1.Text = "menuStrip1";
             // 
-            // label2
+            // menuPrincipalToolStripMenuItem
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 10F);
-            label2.Location = new Point(308, 97);
-            label2.Name = "label2";
-            label2.Size = new Size(149, 19);
-            label2.TabIndex = 1;
-            label2.Text = "Gestion de restaurante";
+            menuPrincipalToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { clientesToolStripMenuItem });
+            menuPrincipalToolStripMenuItem.Name = "menuPrincipalToolStripMenuItem";
+            menuPrincipalToolStripMenuItem.Size = new Size(61, 20);
+            menuPrincipalToolStripMenuItem.Text = "Clientes";
             // 
-            // btnMesas
+            // clientesToolStripMenuItem
             // 
-            btnMesas.Font = new Font("Segoe UI", 12F);
-            btnMesas.Location = new Point(193, 146);
-            btnMesas.Name = "btnMesas";
-            btnMesas.Size = new Size(163, 57);
-            btnMesas.TabIndex = 2;
-            btnMesas.Text = "Mesas";
-            btnMesas.UseVisualStyleBackColor = true;
-            btnMesas.Click += this.button1_Click;
+            clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            clientesToolStripMenuItem.Size = new Size(167, 22);
+            clientesToolStripMenuItem.Text = "Gestionar clientes";
+            clientesToolStripMenuItem.Click += clientesToolStripMenuItem_Click;
             // 
-            // btnPedidos
+            // empleadosToolStripMenuItem1
             // 
-            btnPedidos.Font = new Font("Segoe UI", 12F);
-            btnPedidos.Location = new Point(193, 235);
-            btnPedidos.Name = "btnPedidos";
-            btnPedidos.Size = new Size(163, 57);
-            btnPedidos.TabIndex = 3;
-            btnPedidos.Text = "Pedidos";
-            btnPedidos.UseVisualStyleBackColor = true;
+            empleadosToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { gestionarEmpleadosToolStripMenuItem });
+            empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
+            empleadosToolStripMenuItem1.Size = new Size(77, 20);
+            empleadosToolStripMenuItem1.Text = "Empleados";
             // 
-            // btnPlatos
+            // gestionarEmpleadosToolStripMenuItem
             // 
-            btnPlatos.Font = new Font("Segoe UI", 12F);
-            btnPlatos.Location = new Point(193, 328);
-            btnPlatos.Name = "btnPlatos";
-            btnPlatos.Size = new Size(163, 57);
-            btnPlatos.TabIndex = 4;
-            btnPlatos.Text = "Platos";
-            btnPlatos.UseVisualStyleBackColor = true;
+            gestionarEmpleadosToolStripMenuItem.Name = "gestionarEmpleadosToolStripMenuItem";
+            gestionarEmpleadosToolStripMenuItem.Size = new Size(185, 22);
+            gestionarEmpleadosToolStripMenuItem.Text = "Gestionar empleados";
+            gestionarEmpleadosToolStripMenuItem.Click += empleadosToolStripMenuItem_Click;
             // 
-            // btnReservas
+            // reservasToolStripMenuItem1
             // 
-            btnReservas.Font = new Font("Segoe UI", 12F);
-            btnReservas.Location = new Point(410, 146);
-            btnReservas.Name = "btnReservas";
-            btnReservas.Size = new Size(163, 57);
-            btnReservas.TabIndex = 5;
-            btnReservas.Text = "Reservas";
-            btnReservas.UseVisualStyleBackColor = true;
+            reservasToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { gestionarReservasToolStripMenuItem });
+            reservasToolStripMenuItem1.Name = "reservasToolStripMenuItem1";
+            reservasToolStripMenuItem1.Size = new Size(64, 20);
+            reservasToolStripMenuItem1.Text = "Reservas";
             // 
-            // btnClientes
+            // gestionarReservasToolStripMenuItem
             // 
-            btnClientes.Font = new Font("Segoe UI", 12F);
-            btnClientes.Location = new Point(410, 235);
-            btnClientes.Name = "btnClientes";
-            btnClientes.Size = new Size(163, 57);
-            btnClientes.TabIndex = 6;
-            btnClientes.Text = "Clientes";
-            btnClientes.UseVisualStyleBackColor = true;
-            btnClientes.Click += this.button5_Click;
-            // 
-            // btnReportes
-            // 
-            btnReportes.Font = new Font("Segoe UI", 12F);
-            btnReportes.Location = new Point(410, 328);
-            btnReportes.Name = "btnReportes";
-            btnReportes.Size = new Size(163, 57);
-            btnReportes.TabIndex = 7;
-            btnReportes.Text = "Reportes";
-            btnReportes.UseVisualStyleBackColor = true;
+            gestionarReservasToolStripMenuItem.Name = "gestionarReservasToolStripMenuItem";
+            gestionarReservasToolStripMenuItem.Size = new Size(169, 22);
+            gestionarReservasToolStripMenuItem.Text = "Gestionar reservas";
+            gestionarReservasToolStripMenuItem.Click += reservasToolStripMenuItem_Click;
             // 
             // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(btnReportes);
-            Controls.Add(btnClientes);
-            Controls.Add(btnReservas);
-            Controls.Add(btnPlatos);
-            Controls.Add(btnPedidos);
-            Controls.Add(btnMesas);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            ClientSize = new Size(1384, 811);
+            Controls.Add(menuStrip1);
+            IsMdiContainer = true;
+            MainMenuStrip = menuStrip1;
             Name = "MenuPrincipal";
-            Text = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Menú Principal";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private Label label2;
-        private Button btnMesas;
-        private Button btnPedidos;
-        private Button btnPlatos;
-        private Button btnReservas;
-        private Button btnClientes;
-        private Button btnReportes;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem menuPrincipalToolStripMenuItem;
+        private ToolStripMenuItem clientesToolStripMenuItem;
+        private ToolStripMenuItem empleadosToolStripMenuItem1;
+        private ToolStripMenuItem gestionarEmpleadosToolStripMenuItem;
+        private ToolStripMenuItem reservasToolStripMenuItem1;
+        private ToolStripMenuItem gestionarReservasToolStripMenuItem;
     }
 }

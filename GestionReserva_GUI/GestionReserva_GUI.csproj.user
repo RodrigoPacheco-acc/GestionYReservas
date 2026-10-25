@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="ClientesMan01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientesMan02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ClientesMan03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmpleadosMan01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmpleadosMan02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EmpleadosMan03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MesasMan01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MesasMan02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MesasMan03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PlatosMan01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PlatosMan02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PlatosMan03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReservasMan01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReservasMan02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReservasMan03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
